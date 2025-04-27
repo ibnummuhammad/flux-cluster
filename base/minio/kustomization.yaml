@@ -16,4 +16,4 @@ resources:
   - clusterrolebindings.yaml
   - services.yaml
   - deployments.yaml
-  - tenant.yaml
+  # - tenant.yaml
