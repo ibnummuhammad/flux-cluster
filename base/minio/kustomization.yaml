@@ -10,9 +10,11 @@ commonLabels:
   app.kubernetes.io/name: operator
 resources:
   - namespace.yaml
+  - crds/
+  - secrets.yaml
   - service-account.yaml
   - cluster-role.yaml
   - cluster-role-binding.yaml
-  - crds/
   - service.yaml
   - deployment.yaml
+  - tenant.yaml
