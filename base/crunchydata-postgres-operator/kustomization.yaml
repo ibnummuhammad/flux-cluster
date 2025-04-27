@@ -17,3 +17,4 @@ labels:
 resources:
   - namespaces.yaml
   - crd
+  - rbac
