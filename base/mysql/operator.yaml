@@ -108,7 +108,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: mysql-operator-sa
-    namespace: mysql-operator
+    namespace: mysql
   # TODO The following entry is for dev purposes only
   #- kind: Group
   #  name: system:serviceaccounts
@@ -124,21 +124,16 @@ metadata:
   name: mysql-operator
 ---
 apiVersion: v1
-kind: Namespace
-metadata:
-  name: mysql-operator
----
-apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: mysql-operator-sa
-  namespace: mysql-operator
+  namespace: mysql
 ---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mysql-operator
-  namespace: mysql-operator
+  namespace: mysql
   labels:
     version: "1.0"
     app.kubernetes.io/name: mysql-operator
