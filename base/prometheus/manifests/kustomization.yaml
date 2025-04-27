@@ -3,12 +3,12 @@ kind: Kustomization
 resources:
   - alertmanager-alertmanager.yaml
   - alertmanager-networkPolicy.yaml
-  # - alertmanager-podDisruptionBudget.yaml
-  # - alertmanager-prometheusRule.yaml
-  # - alertmanager-secret.yaml
-  # - alertmanager-serviceAccount.yaml
-  # - alertmanager-serviceMonitor.yaml
-  # - alertmanager-service.yaml
+  - alertmanager-podDisruptionBudget.yaml
+  - alertmanager-prometheusRule.yaml
+  - alertmanager-secret.yaml
+  - alertmanager-serviceAccount.yaml
+  - alertmanager-serviceMonitor.yaml
+  - alertmanager-service.yaml
   # - blackboxExporter-clusterRoleBinding.yaml
   # - blackboxExporter-clusterRole.yaml
   # - blackboxExporter-configuration.yaml
