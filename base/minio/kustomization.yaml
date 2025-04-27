@@ -11,10 +11,8 @@ commonLabels:
 resources:
   - namespace.yaml
   - crds/
-  - secrets.yaml
   - service-account.yaml
   - cluster-role.yaml
   - cluster-role-binding.yaml
   - service.yaml
   - deployment.yaml
-  - tenant.yaml
