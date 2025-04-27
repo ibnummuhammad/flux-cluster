@@ -9,14 +9,14 @@ resources:
   - alertmanager-serviceAccount.yaml
   - alertmanager-serviceMonitor.yaml
   - alertmanager-service.yaml
-  # - blackboxExporter-clusterRoleBinding.yaml
-  # - blackboxExporter-clusterRole.yaml
-  # - blackboxExporter-configuration.yaml
-  # - blackboxExporter-deployment.yaml
-  # - blackboxExporter-networkPolicy.yaml
-  # - blackboxExporter-serviceAccount.yaml
-  # - blackboxExporter-serviceMonitor.yaml
-  # - blackboxExporter-service.yaml
+  - blackboxExporter-clusterRoleBinding.yaml
+  - blackboxExporter-clusterRole.yaml
+  - blackboxExporter-configuration.yaml
+  - blackboxExporter-deployment.yaml
+  - blackboxExporter-networkPolicy.yaml
+  - blackboxExporter-serviceAccount.yaml
+  - blackboxExporter-serviceMonitor.yaml
+  - blackboxExporter-service.yaml
   # - grafana-config.yaml
   # - grafana-dashboardDatasources.yaml
   # - grafana-dashboardDefinitions.yaml
