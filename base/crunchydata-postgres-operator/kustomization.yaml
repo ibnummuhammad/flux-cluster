@@ -19,6 +19,7 @@ resources:
   - crd
   - rbac
   - manager
+  - postgres.yaml
 
 components:
   - components/images-by-tag
