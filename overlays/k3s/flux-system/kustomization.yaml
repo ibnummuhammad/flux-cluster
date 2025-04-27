@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - gotk-components.yaml
   - gotk-sync.yaml
-  - ../../../base/crunchydata-postgres-operator
+  - ../../../base/postgres
   - ../../../base/mysql-operator
