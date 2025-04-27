@@ -17,16 +17,16 @@ resources:
   - blackboxExporter-serviceAccount.yaml
   - blackboxExporter-serviceMonitor.yaml
   - blackboxExporter-service.yaml
-  # - grafana-config.yaml
-  # - grafana-dashboardDatasources.yaml
-  # - grafana-dashboardDefinitions.yaml
-  # - grafana-dashboardSources.yaml
-  # - grafana-deployment.yaml
-  # - grafana-networkPolicy.yaml
-  # - grafana-prometheusRule.yaml
-  # - grafana-serviceAccount.yaml
-  # - grafana-serviceMonitor.yaml
-  # - grafana-service.yaml
+  - grafana-config.yaml
+  - grafana-dashboardDatasources.yaml
+  - grafana-dashboardDefinitions.yaml
+  - grafana-dashboardSources.yaml
+  - grafana-deployment.yaml
+  - grafana-networkPolicy.yaml
+  - grafana-prometheusRule.yaml
+  - grafana-serviceAccount.yaml
+  - grafana-serviceMonitor.yaml
+  - grafana-service.yaml
   # - kubePrometheus-prometheusRule.yaml
   # - kubernetesControlPlane-prometheusRule.yaml
   # - kubernetesControlPlane-serviceMonitorApiserver.yaml
