@@ -4,3 +4,4 @@ resources:
   - crds.yaml
   - operator.yaml
   - secrets.yaml
+  - innodb.yaml
