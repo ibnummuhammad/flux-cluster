@@ -422,6 +422,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: my-trino-trino-test-connection
+  namespace: trino
   labels:
     helm.sh/chart: trino-1.38.0
     app.kubernetes.io/name: trino
