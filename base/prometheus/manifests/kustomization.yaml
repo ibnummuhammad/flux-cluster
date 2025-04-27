@@ -27,22 +27,21 @@ resources:
   - grafana-serviceAccount.yaml
   - grafana-serviceMonitor.yaml
   - grafana-service.yaml
-  # - kubePrometheus-prometheusRule.yaml
-  # - kubernetesControlPlane-prometheusRule.yaml
-  # - kubernetesControlPlane-serviceMonitorApiserver.yaml
-  # - kubernetesControlPlane-serviceMonitorCoreDNS.yaml
-  # - kubernetesControlPlane-serviceMonitorKubeControllerManager.yaml
-  # - kubernetesControlPlane-serviceMonitorKubelet.yaml
-  # - kubernetesControlPlane-serviceMonitorKubeScheduler.yaml
-  # - kubeStateMetrics-clusterRoleBinding.yaml
-  # - kubeStateMetrics-clusterRole.yaml
-  # - kubeStateMetrics-deployment.yaml
-  # - kubeStateMetrics-networkPolicy.yaml
-  # - kubeStateMetrics-prometheusRule.yaml
-  # - kubeStateMetrics-serviceAccount.yaml
-  # - kubeStateMetrics-serviceMonitor.yaml
-  # - kubeStateMetrics-service.yaml
-  # - kustomization.yaml
+  - kubePrometheus-prometheusRule.yaml
+  - kubernetesControlPlane-prometheusRule.yaml
+  - kubernetesControlPlane-serviceMonitorApiserver.yaml
+  - kubernetesControlPlane-serviceMonitorCoreDNS.yaml
+  - kubernetesControlPlane-serviceMonitorKubeControllerManager.yaml
+  - kubernetesControlPlane-serviceMonitorKubelet.yaml
+  - kubernetesControlPlane-serviceMonitorKubeScheduler.yaml
+  - kubeStateMetrics-clusterRoleBinding.yaml
+  - kubeStateMetrics-clusterRole.yaml
+  - kubeStateMetrics-deployment.yaml
+  - kubeStateMetrics-networkPolicy.yaml
+  - kubeStateMetrics-prometheusRule.yaml
+  - kubeStateMetrics-serviceAccount.yaml
+  - kubeStateMetrics-serviceMonitor.yaml
+  - kubeStateMetrics-service.yaml
   # - nodeExporter-clusterRoleBinding.yaml
   # - nodeExporter-clusterRole.yaml
   # - nodeExporter-daemonset.yaml
