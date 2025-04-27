@@ -10,8 +10,10 @@ commonLabels:
 resources:
   - namespaces.yaml
   - crds/
+  - secrets.yaml
   - serviceaccounts.yaml
   - clusterroles.yaml
   - clusterrolebindings.yaml
   - services.yaml
   - deployments.yaml
+  - tenant.yaml
