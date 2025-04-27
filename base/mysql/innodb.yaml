@@ -6,6 +6,6 @@ metadata:
 spec:
   secretName: mypwds
   tlsUseSelfSigned: true
-  instances: 3
+  instances: 1
   router:
     instances: 1
